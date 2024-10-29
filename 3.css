@@ -1,0 +1,110 @@
+/* Prevent scrolling */
+html, body {
+  overflow: hidden;
+  height: 100%;
+}
+
+
+
+
+
+.top-section {
+    background-image: url('mmm.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+  }
+  
+  /* Hero Content Styling */
+  .hero-content {
+    z-index: 1;
+    margin-left: 10px;
+    color: #666;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  /* Bottom Section Styling */
+  .bottom-section {
+    background-color: #d6cdcd;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    color: #666;
+    font-style: oblique;
+    font-weight: 500;
+  }
+  
+  /* Centered Boxes Styling */
+  .centered-boxes {
+    position: absolute;
+    top: 53vh; /* Adjust to control overlap */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 20px;
+    z-index: 2;
+  }
+  
+  .box {
+    background-color:white;
+    width: 320px;
+    height: 150px;
+     display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    font-weight: bold;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   
+  }
+  .box2 {
+    width: 220px; /* Width for Box 2 */
+    height: 150px; /* Height for Box 2 */
+    border-radius: 0; /* Pointed corners */
+    flex-direction: column; /* Stack skill boxes vertically */
+  padding: 10px; /* Add padding for inner skill boxes */
+  }
+  .skill-boxes {
+    display: flex;
+    flex-direction: column; /* Stack skill boxes vertically */
+    gap: 8px; /* Space between skill boxes */
+    width: 100%; /* Make sure skill boxes take full width */
+  }
+  
+  /* Skill Box Styling */
+  .skill-box {
+    background-color: #6ca1df; /* Green background */
+    color: #666; /* Text color */
+    height: 30px; /* Height of the box */
+    display: flex;
+    align-items: center; /* Center text vertically */
+    /* justify-content: center; Center text horizontally */
+    font-weight: bold;
+    border-radius: 0; /* Pointed corners */
+    transition: width 0.3s ease; /* Smooth width transition */
+  }
+  .skill-header {
+    font-size: 15px; /* Adjust the font size */
+    font-weight: bold;
+    color: #666; /* Text color */
+    margin-bottom: 0px; /* Space between header and skill boxes */
+    text-align: center; /* Center the text */
+    margin-top: 0px;
+  }
+  .box1 p {
+    font-size: 16px;
+    color: #666;
+    margin-left: 5px;
+    margin-top: 7px;
+  }
